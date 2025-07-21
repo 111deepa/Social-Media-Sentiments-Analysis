@@ -20,7 +20,7 @@ https://github.com/111deepa/Social-Media-Sentiments-Analysis/blob/main/Social%20
 
 ---
 
-## 📘 Introduction
+## Introduction
 
 This project performs sentiment analysis on social media posts (Twitter, Instagram, Facebook) to understand public opinion and brand perception. The focus is to provide insights through interactive **Power BI dashboards**, especially from **Twitter** data.
 
