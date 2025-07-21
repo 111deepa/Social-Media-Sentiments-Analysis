@@ -6,17 +6,17 @@ https://github.com/111deepa/Social-Media-Sentiments-Analysis/blob/main/Social%20
 
 ## 📌 Table of Contents
 
-* [📘 Introduction](#introduction)
-* [💼 Business Problem](#business-problem)
-* [🎯 Objectives](#objectives)
-* [📁 Data Understanding](#data-understanding)
-* [📊 Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-* [🧹 NLP Preprocessing](#nlp-preprocessing)
-* [💬 Sentiment Analysis](#sentiment-analysis)
-* [🤖 Modeling](#modeling)
-* [📈 Power BI Dashboard](#power-bi-dashboard)
-* [💡 Recommendations](#recommendations)
-* [👩‍💻 Author](#author)
+* [Introduction](#introduction)
+* [Business Problem](#business-problem)
+* [Objectives](#objectives)
+* [Data Understanding](#data-understanding)
+* [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+* [NLP Preprocessing](#nlp-preprocessing)
+* [Sentiment Analysis](#sentiment-analysis)
+* [Modeling](#modeling)
+* [Power BI Dashboard](#power-bi-dashboard)
+* [Recommendations](#recommendations)
+* [Author](#author)
 
 ---
 
@@ -26,7 +26,7 @@ This project performs sentiment analysis on social media posts (Twitter, Instagr
 
 ---
 
-## 💼 Business Problem
+## Business Problem
 
 Brands often struggle to understand how users feel about them on social media. This project helps identify:
 
@@ -36,7 +36,7 @@ Brands often struggle to understand how users feel about them on social media. T
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. **Perform sentiment analysis** using Natural Language Processing (NLP)
 2. **Create Power BI dashboards** to visualize sentiment by platform
@@ -44,7 +44,7 @@ Brands often struggle to understand how users feel about them on social media. T
 
 ---
 
-## 📁 Data Understanding
+## Data Understanding
 
 * **Source**: Dataset downloaded from **Kaggle**
 * **Fields**: `ID',	'Entity',	'Text',	'Sentiment',	'Timestamp',	'User',	'Platform',	'Hashtags',	'Retweets',	'Likes',	'Country',	'Year',	'Month',	'Day',	'Hour',	'MainSentiment',	'Emotion',	'Cleaned_Text', 'Sentiment_Score',	'Sentiment_Predicted',	'Text_Length'
@@ -54,7 +54,7 @@ Brands often struggle to understand how users feel about them on social media. T
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 EDA performed using:
 
@@ -65,7 +65,7 @@ EDA performed using:
 
 ---
 
-## 🧹 NLP Preprocessing
+## NLP Preprocessing
 
 Performed the following preprocessing steps:
 
@@ -77,7 +77,7 @@ Performed the following preprocessing steps:
 
 ---
 
-## 💬 Sentiment Analysis
+## Sentiment Analysis
 
 * Used **VADER Sentiment Analyzer**
 * Labels: `Positive`, `Negative`, `Neutral`
@@ -85,7 +85,7 @@ Performed the following preprocessing steps:
 
 ---
 
-## 🤖 Modeling (Optional)
+## Modeling (Optional)
 
 * Model: Logistic Regression (Baseline)
 * TF-IDF Vectorizer used for feature extraction
@@ -93,7 +93,7 @@ Performed the following preprocessing steps:
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 Dashboard pages created:
 
@@ -109,15 +109,15 @@ Dashboard pages created:
 
    * Similar layout with platform-based filters
 
-> 🔍 **Filters used in each visual:**
+> **Filters used in each visual:**
 > `Platform = Twitter` (or Instagram/Facebook accordingly)
 
-> 💡 Word Cloud Visual:
+> Word Cloud Visual:
 > Insert from Power BI > Marketplace > Search "Word Cloud"
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 
 * Track Twitter sentiment in real-time for customer support and PR.
 * Compare sentiment across platforms for marketing insights.
@@ -126,6 +126,6 @@ Dashboard pages created:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Deepa Kumari**
